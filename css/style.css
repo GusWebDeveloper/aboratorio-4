@@ -1,0 +1,47 @@
+body
+{
+    background: #36688d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1
+{
+ background: #A37C27;
+ border-radius: 25px;
+ width: 50%;
+ color: #FFFF;
+ font-size: 1cm;
+}
+
+div
+{
+background: rgb(45, 160, 141);
+width: 100px;
+height: 100px;
+text-align: center;
+}
+
+footer
+{
+    background: darkslateblue;
+    font-size: 0.5cm;
+
+}
+.caja1
+{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+
+}
+.caja2
+{
+    position: relative;
+    left: 100px;
+
+}
+.caja3
+{   
+   overflow: auto;
+
+}
