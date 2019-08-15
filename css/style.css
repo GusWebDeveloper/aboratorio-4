@@ -1,47 +1,136 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
 body
 {
     background: #36688d;
-    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%,50%;
+    background-size: auto;
+    
+}
+div#header
+{
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+    height: 150px;
+    background: purple;
+
 }
 
-h1
+div#nav
 {
- background: #A37C27;
- border-radius: 25px;
- width: 50%;
- color: #FFFF;
- font-size: 1cm;
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+    height: 100px;
+    background: rgb(16, 189, 16);
+
+}
+div#nav1
+{
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 31%;
+    height: 65%;
+    background: white;
+    display: inline-block;
+}
+div#article
+{
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+    height: 1500px;
+    background: cadetblue;
+
 }
 
-div
+div#aside
 {
-background: rgb(45, 160, 141);
-width: 100px;
-height: 100px;
-text-align: center;
+    margin: 0px;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    width: 25%;
+    height: 70%;
+    background: green;
+    float: right;
+}
+
+div#section
+{
+    margin: 0px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    width: 69%;
+    height: 70%;
+    background: chocolate;
+    float: left;
+    background-image: url(../img/Html-Css.png);
+    background-repeat: no-repeat;
+    background-position: 55%,100%;
+    background-size: auto; 
+}
+
+div#section2
+{
+    margin: 0px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    margin-right: 1%;
+    width: 96%;
+    height: 20%;
+    background: rgb(30, 78, 210);
+    float: left;
 }
 
 footer
 {
-    background: darkslateblue;
-    font-size: 0.5cm;
-
+    margin: auto;
+    margin-top: 1%;
+    width: 80%;
+    height: 50px;
+    background: purple;
 }
-.caja1
+
+h1
 {
-    position: relative;
-    left: 30px;
-    bottom: 10px;
-
+    padding: 1.5%;
+    font-family: fantasy;
+    text-align: center;
+    color: #FFFF;
+    font-size: 2cm;
 }
-.caja2
+
+p
 {
-    position: relative;
-    left: 100px;
-
+    margin: 0px;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: white;
+    font-size: 0.75cm;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify ;
 }
-.caja3
+a
 {   
-   overflow: auto;
-
+    padding: 1%;
+    color: white;
+    font-size: 0.75cm;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center ;
+    text-decoration: none;
 }
